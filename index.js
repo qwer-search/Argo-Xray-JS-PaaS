@@ -1,7 +1,7 @@
 const username = process.env.WEB_USERNAME || "admin";
 const password = process.env.WEB_PASSWORD || "password";
 const url = "http://127.0.0.1";
-const port = process.env.PORT || 3000; /* 当容器平台分配不规则端口时,此处需修改为分配端口 */
+const port = process.env.PORT || 8082; /* 当容器平台分配不规则端口时,此处需修改为分配端口 */
 const express = require("express");
 const app = express();
 var exec = require("child_process").exec;
