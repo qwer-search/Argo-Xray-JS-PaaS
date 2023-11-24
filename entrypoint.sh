@@ -14,7 +14,7 @@ NEZHA_TLS="1"
 
 # Argo 固定域名隧道的两个参数,这个可以填 Json 内容或 Token 内容，不需要的话可以留空，删除或在这三行最前面加 # 以注释
 ARGO_AUTH='eyJhIjoiOTk5NmM3NTYxZTFiMGM0MTE4MDZjMjY1ODMwYzg2NDYiLCJ0IjoiMmEwNTA4YjAtODcwNC00NTIyLTllZmYtMjc5NDhiOGZjODc2IiwicyI6IlpEZ3daRFUzTkRBdE16UXpNQzAwTVdNd0xUZ3dabU10T0dWaE9XRTNOVFk1WWpSaCJ9'
-ARGO_DOMAIN="gitpod.0o0.free.hr"
+ARGO_DOMAIN="gitpod1.vps-jdkz.cf"
 
 # ttyd / filebrowser argo 域名
 SSH_DOMAIN="$SSH_AUTH"
